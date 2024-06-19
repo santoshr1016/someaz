@@ -87,7 +87,7 @@ resource "azurerm_application_gateway" "web_ag" {
     timeout             = 30
     unhealthy_threshold = 3
     protocol            = "Http"
-    port                = 80ßßßß
+    port                = 80
     path                = "/app1/status.html"
     match { # Optional
       body              = "App1"

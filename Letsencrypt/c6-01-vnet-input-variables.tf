@@ -37,7 +37,7 @@ variable "app_subnet_name" {
 variable "app_subnet_address" {
   description = "Virtual Network App Subnet Address Spaces"
   type = list(string)
-  default = ["10.0.11.0/24"]
+  default = ["10.0.2.0/24"]
 }
 
 
@@ -52,6 +52,6 @@ variable "ag_subnet_name" {
 variable "ag_subnet_address" {
   description = "Virtual Network Application Gateway Subnet Address Spaces"
   type = list(string)
-  default = ["10.0.51.0/24"]
+  default = ["10.0.3.0/24"]
 }
 

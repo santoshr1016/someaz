@@ -11,7 +11,7 @@ resource "time_rotating" "default" {
 variable "email_address" {
   description = "kv acmebot email registration"
   type = string
-  default = "santosh.kumar@ghd.com"
+  default = "EMAIL.ADDRESS@gmai.com"
 }
 
 data "azuread_client_config" "current" {}
